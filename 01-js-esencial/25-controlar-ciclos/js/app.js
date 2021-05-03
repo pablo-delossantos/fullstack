@@ -7,6 +7,9 @@ var contador = 0;
 var cuenta = 0;
 
 for(contador = 0; contador<= 20; contador++) {
+  if (contador == 5){
+    break;
+  }
   if (contador % 2 == 0) {
     continue;
   }
@@ -14,4 +17,4 @@ for(contador = 0; contador<= 20; contador++) {
   debugger;
 }
 
-console.log('Hay' + cuenta + ' números impares');
+console.log('Hay ' + cuenta + ' números impares');
