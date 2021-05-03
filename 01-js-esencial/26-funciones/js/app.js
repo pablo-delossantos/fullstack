@@ -4,6 +4,7 @@
 
 function saludar() {
   var saludo = "Hola Mundo";
-  console.log(saludo);
+  // console.log(saludo);
+  return saludo;
 }
-saludar()
+saludar();
