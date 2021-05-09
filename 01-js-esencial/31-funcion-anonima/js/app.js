@@ -13,3 +13,4 @@ var saludar = function(nombre){
   var mensaje = 'Hola ' + nombre;
   return mensaje;
 }
+//Esta es una manera común de escribir funciones anónimas
